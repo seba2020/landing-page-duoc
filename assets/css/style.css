@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat';
+}
+
+.resume {
+    font-size: 1.3em;
+    position: absolute;
+    left: 30%;
+    top: 35%;
+    width: 300px;
+}
+
+.section-mid {
+    width: 40vw;
+}
+
+.content {
+    padding: 2em;
+}
+
+.bg1{
+    background: #fff;
+}
+
+.bg2 {
+    background: #f9f9f9;
+}
+
+.avatar-image {
+    width: 100px;
+}
+
+.section-card-header {
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+}
+
+.card-content { 
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-birthday {
+    width: 100px;
+}
+
+/* CUSTOM BOOTSTRAP STYLES */
+
+.btn-primary {
+    background: #e9b92a;
+    border: none;
+}
+
+.btn-primary:hover { 
+    background: #01273e;
+    color: #fff;
+}
+
+.btn-outline-success {
+    border-color: #e9b92a;
+    color: #e9b92a;
+}
+
+.btn-outline-success:hover {
+    background: #e9b92a;
+    border: none;
+    color: #fff;
+}
+
+footer { 
+    background: #01273e;
+    display: flex;
+    justify-content: center;
+}
+
+footer a{
+    color: #e9b92a;
+    padding: 0 1em;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.text-footer {
+    color: #fff;
+}
+
+/* SECTION BANNER */
+
+@media screen and (min-width: 500px) {
+    
+    .section-banner {
+        background-image: url(../image/banner2.svg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 110vh;
+        min-height: 400px;
+    }
+
+}
+
+.image-sindicato {
+    margin-top: 3%;
+    margin-right: 10%;
+    width: 40%;
+}
+
+.content-banner {
+    margin-right: 10%;
+    width: 40%;
+}
+
+.img-ultimos-articulos {
+    width: 50%;
+}
+
+.my-card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border-radius: .25rem;
+}
+
+.card-body {
+    background: url(../image/happy_birthday2.svg);
+    background-repeat: no-repeat;
+    background-position: 90px 0px;
+}
+
+/* LOGIN */
+
+.login-left {
+    background: url(../image/login_shape1.svg);
+}
+
+/* Mobile y wea xD */
+
+@media screen and (max-width: 500px) {
+
+    .section-banner {
+        background-image: url(../image/banner2.svg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 400px;
+    }
+
+    .content-banner {
+        width: 80%;
+        margin-top: 30%;
+        margin-right: 0;
+    }
+
+    .div-section-mid {
+        display: flex;
+        justify-content: center;
+    }
+
+    .my-card {
+        margin-bottom: 10px;
+    }
+
+    .card-body {
+        background-position: right;
+    }
+
+    .img-ultimos-articulos {
+        width: 40%;
+    }
+    
+    footer {
+        background: #01273e;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+}
